@@ -5,6 +5,15 @@
   "main": "index.js",
   "author": "Choi Jiwon",
   "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
     "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.4",
+    "nodemon": "^1.19.0"
   }
 }
