@@ -16,7 +16,7 @@
     "parser": "^0.1.4"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js --delay 2m"
+    "start": "nodemon --exec babel-node init.js --delay 2m"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.4.4",
