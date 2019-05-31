@@ -15,8 +15,10 @@
     "helmet": "^3.18.0",
     "mongoose": "^5.5.11",
     "morgan": "^1.9.1",
+    "multer": "^1.4.1",
     "parser": "^0.1.4",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "save": "^2.4.0"
   },
   "scripts": {
     "start": "nodemon --exec babel-node init.js --delay 2m"
