@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import routes from "../routes";
 
 export const getJoin = (req, res) => {
@@ -30,6 +31,16 @@ export const logout = (req, res) => {
 
 
 
+=======
+export const join = (req, res) =>
+ res.render('join', {pageTitle: "Join"});
+export const login = (req, res) =>
+ res.render('login', {pageTitle: "Login"});
+export const logout = (req, res) =>
+ res.render('logout', {pageTitle: "Logout"});
+export const users = (req, res) =>
+ res.render('users', {pageTitle: "Users"});
+>>>>>>> parent of ba6e58a... end of express js & mongoDb installed
 export const userDetail = (req, res) =>
  res.render('userDetail', {pageTitle: "User Deatil"});
 export const editProfile = (req, res) =>
